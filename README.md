@@ -52,6 +52,12 @@ ________________________________________
 Arhitectura de prezervare (OAIS)
 MaD-oais este construit pe modelul de referință ISO 14721 (OAIS) și implementează fluxurile standard de ingestie și prezervare.
 
+---
+## Contribuții
+
+Dezvoltarea aplicației a fost realizată în colaborare cu **Bogdan Florin Popovici** ([pagina personală](https://bogdanpopovici2008.wordpress.com/)), care a avut inițiativa și a fundamentat structura conceptuală a fluxului.
+---
+
 Status documentație
 Documentația este în curs de extindere. Vor fi adăugate:
 •	diagrame arhitecturale;
