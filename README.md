@@ -1,16 +1,24 @@
 # MaD-oais (Managementul Arhivei Digitale)
 
-Sistem de ingestie, analiză tehnică, creare derivate și prezervare digitală conform standardelor OAIS și PREMIS.  
-MaD-oais este o aplicație desktop dezvoltată în Electron, destinată instituțiilor care gestionează arhive digitale complexe.  
-Aplicația automatizează fluxul de lucru de la ingestia SIP până la validarea tehnică, generarea derivatelor și managementul metadatelor de prezervare.
-Sistemul este proiectat pentru a asigura integritatea, trasabilitatea și auditabilitatea completă a arhivei digitale.
+Sistem de ingestie, analiză tehnică, creare de derivate și prezervare digitală conform standardelor **OAIS** și **PREMIS**.
 
-Dezvoltarea aplicației a fost realizată în colaborare cu **Bogdan Florin Popovici** ([pagina personală](https://bogdanpopovici2008.wordpress.com/)), care a avut inițiativa și a fundamentat structura conceptuală a fluxului.
+**MaD-oais** este o aplicație desktop dezvoltată în Electron, destinată instituțiilor care gestionează arhive digitale complexe. Aplicația automatizează fluxul de lucru de la ingestia SIP până la validarea tehnică, generarea derivatelor și managementul metadatelor de prezervare. Sistemul este proiectat pentru a asigura **integritatea**, **trasabilitatea** și **auditabilitatea** completă a arhivei digitale.
+Dezvoltarea aplicației a fost realizată în colaborare cu **Bogdan Florin Popovici** ([pagina personală](https://bogdanpopovici2008.wordpress.com/)), care a contribuit cu expertiza sa arhivistică și a fundamentat structura conceptuală a fluxului.
+---
+
+## Interfață
+
+![Interfață MaD-oais](images/Mad-oais_interfata.png)
+
+### Demonstrație vizuală
+
+![Flux MaD-oais](images/MaD-oais_interfata.gif)
+
 ---
 ## Funcționalități principale
 
 - **Ingestie SIP automată**  
-  Procesarea arhivelor ZIP, extragerea conținutului și validarea manifestelor interne.
+  Procesarea arhivelor ZIP, extragerea conținutului și validarea manifestelor, intern și extern.
 
 - **Securitate**  
   Scanare antivirus integrată pentru pachetele SIP.
