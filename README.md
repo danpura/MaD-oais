@@ -11,7 +11,7 @@ Dezvoltarea aplicației a fost realizată în colaborare cu **Bogdan Florin Popo
 
 ![Interfață MaD-oais](images/Mad-oais_interfata.png)
 
-### Demonstrație vizuală
+### Prezentarea interfaței
 
 ![Flux MaD-oais](images/MaD-oais_interfata.gif)
 
