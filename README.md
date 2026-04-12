@@ -18,13 +18,27 @@ Dezvoltarea aplicației a fost realizată în colaborare cu **Bogdan Florin Popo
 ---
 ## Funcționalități principale
 
-- **Ingestie SIP automată**  
-  Procesarea arhivelor ZIP, extragerea conținutului și validarea manifestelor, intern și extern.
+### Ingestie SIP automată  
+Procesarea arhivelor ZIP, extragerea conținutului și validarea manifestelor, intern și extern.
+
 ![Ingestie SIP – demonstrație](images/MaD-OAIS_ingestie.gif)
-  **Documente asociate:**
+
 **Documente asociate:**
 - [Certificat Audit TM-003 (2026.04.10)](https://danpura.github.io/MaD-oais/Certificat_Audit_TM-003-2026.04.10.html)
 - [Raport obiect 05](https://danpura.github.io/MaD-oais/Raport_obiect_05.html)
+
+---
+
+### Vizualizări suplimentare
+
+**Istoric evenimente PREMIS**  
+Jurnalul complet al evenimentelor generate în timpul ingestiei: verificări de integritate (fixity), validare PDF/A, identificare de format PRONOM, extragere metadate tehnice și rezultatele fiecărui pas. Reprezintă lanțul de custodie tehnic al obiectului digital.  
+![Istoric PREMIS](images/istoric.png)
+
+**Metadate tehnice extrase**  
+Rezumatul metadatelor tehnice pentru obiectul digital: MIME, PUID, nivel PDF/A, hash SHA‑256, data modificării, UUID și alte informații relevante pentru prezervare și audit.  
+![Metadate tehnice](images/metadate.png)
+
 
 ---
 - **Securitate**  
