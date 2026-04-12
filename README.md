@@ -26,7 +26,7 @@ Dezvoltarea aplicației a fost realizată în colaborare cu **Bogdan Florin Popo
 - [Certificat Audit TM-003 (2026.04.10)](https://danpura.github.io/MaD-oais/Certificat_Audit_TM-003-2026.04.10.html)
 - [Raport obiect 05](https://danpura.github.io/MaD-oais/Raport_obiect_05.html)
 
-
+---
 - **Securitate**  
   Scanare antivirus integrată pentru pachetele SIP.
 
