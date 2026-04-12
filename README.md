@@ -41,8 +41,27 @@ Rezumatul metadatelor tehnice pentru obiectul digital: MIME, PUID, nivel PDF/A, 
 
 
 ---
-- **Securitate**  
-  Scanare antivirus integrată pentru pachetele SIP.
+### Scanare antivirus, deduplicare și corecție extensii  
+Analiza automată a fișierelor pentru identificarea amenințărilor, detectarea și eliminarea dubletelor, precum și corectarea extensiilor incorecte pe baza identificării reale de format.
+
+![Scanare, deduplicare și corecție extensii](images/MaD-OAIS_deduplicare-corectie-extensii.gif)
+
+**Funcționalități incluse:**
+
+- **Scanare antivirus**  
+  Integrare cu motor antivirus local pentru verificarea fiecărui fișier din SIP înainte de procesare.
+
+- **Identificarea și ștergerea dubletelor**  
+  Detectarea automată a fișierelor duplicate pe baza hash‑urilor criptografice și eliminarea lor controlată.
+
+- **Identificarea extensiilor incorecte**  
+  Compararea extensiei declarate cu formatul real (PRONOM, MIME).
+
+- **Corecția extensiilor**  
+  Corecția extensiei fișierului pentru a reflecta formatul identificat corect.
+
+---
+
 
 - **Analiză tehnică**  
   Identificarea formatelor prin Siegfried (PRONOM), extragerea metadatelor prin ExifTool, validarea PDF/A prin VeraPDF.
