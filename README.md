@@ -22,8 +22,9 @@ Dezvoltarea aplicației a fost realizată în colaborare cu **Bogdan Florin Popo
   Procesarea arhivelor ZIP, extragerea conținutului și validarea manifestelor, intern și extern.
 ![Ingestie SIP – demonstrație](images/MaD-OAIS_ingestie.gif)
   **Documente asociate:**
-  - [Certificat Audit TM-003 (2026.04.10)](images/Certificat_Audit_TM-003-2026.04.10.html)
-  - [Raport obiect 05](images/Raport_obiect_05.html)
+ - [Certificat Audit TM-003 (2026.04.10)](https://danpura.github.io/mad-oais-prezentare/Certificat_Audit_TM-003-2026.04.10.html)
+- [Raport obiect 05](https://danpura.github.io/mad-oais-prezentare/Raport_obiect_05.html)
+
 - **Securitate**  
   Scanare antivirus integrată pentru pachetele SIP.
 
