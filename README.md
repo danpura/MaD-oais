@@ -62,12 +62,36 @@ Analiza automată a fișierelor pentru identificarea amenințărilor, detectarea
 
 ---
 
+### Analiză tehnică  
+Evaluarea automată a fișierelor din SIP folosind un ecosistem de instrumente specializate pentru identificare, validare, verificare structurală și extragere de metadate. Modulul detectează fișiere corupte, incompatibile sau cu probleme tehnice și oferă acțiuni rapide pentru corectarea lor.
 
-- **Analiză tehnică**  
-  Identificarea formatelor prin Siegfried (PRONOM), extragerea metadatelor prin ExifTool, validarea PDF/A prin VeraPDF.
+![Analiză tehnică – demonstrație](images/MaD-OAIS_analiza-tehnica.gif)
 
-- **Integritate garantată**  
-  Calcularea și verificarea automată a sumelor de control SHA 256 pentru fiecare obiect digital.
+**Ecosistemul de analiză utilizat:**
+- **Siegfried (PRONOM)** – identificare de format și PUID  
+- **ExifTool** – extragere metadate tehnice  
+- **ImageMagick** – validare imagini (TIFF, PNG, JP2)  
+- **QPDF** – verificări structurale PDF  
+- **VeraPDF** – validare PDF/A conform standardului ISO  
+- **FFmpeg + FFprobe** – analiză fișiere audio-video și detectarea erorilor structurale  
+- **SHA-256** – verificare integritate și comparare hash-uri  
+
+**Funcționalități principale:**
+- **Identificarea problemelor tehnice** (corupție, incompatibilitate, erori structurale)  
+- **Validarea formatelor** conform standardelor (TIFF, JP2, PDF/A etc.)  
+- **Afișarea motivului exact al erorii** pentru fiecare fișier  
+- **Redenumire asistată** pe baza metadatelor reale (nume corect, extensie corectă, tip de obiect)  
+- **Acțiuni rapide**: redenumire, deschidere fișier, ștergere fișiere invalide  
+
+---
+
+### Vizualizare exemplu
+
+**Tabel analiză tehnică**  
+Exemplu de listare a fișierelor analizate, cu validări, erori detectate și acțiuni disponibile.  
+![Analiză tehnică – tabel](images/analiza-tehnica.png)
+
+---
 
 - **Managementul derivatelor**  
   Generarea de copii de acces (preview-uri) și menținerea relațiilor Master → Derivat.
