@@ -65,7 +65,7 @@ Analiza automată a fișierelor pentru identificarea amenințărilor, detectarea
 ### Analiză tehnică  
 Evaluarea automată a fișierelor din SIP folosind un ecosistem de instrumente specializate pentru identificare, validare, verificare structurală și extragere de metadate. Modulul detectează fișiere corupte, incompatibile sau cu probleme tehnice și oferă acțiuni rapide pentru corectarea lor.
 
-![Analiză tehnică – demonstrație](images/MaD-OAIS_analiza-tehnica.gif)
+![Analiză tehnică – demonstrație](images/analiza-tehnica.gif)
 
 **Ecosistemul de analiză utilizat:**
 - **Siegfried (PRONOM)** – identificare de format și PUID  
