@@ -6,7 +6,7 @@ Sistem de ingestie, analiză tehnică, creare de derivate și prezervare digital
 
 ---
 
-Dezvoltarea aplicației a fost realizată în colaborare cu **Bogdan Florin Popovici** ([pagina personală](https://bogdanpopovici2008.wordpress.com/)), care a contribuit cu expertiza sa arhivistică și a fundamentat structura conceptuală a fluxului.
+Dezvoltarea aplicației a fost realizată în colaborare cu **Bogdan Florin Popovici** ([pagina personală](https://bogdanpopovici2008.wordpress.com/)), care a avut inițiativa și a fundamentat structura conceptuală a fluxului.
 
 ---
 
