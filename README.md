@@ -75,7 +75,8 @@ Evaluarea automată a fișierelor din SIP folosind un ecosistem de instrumente s
 - **Siegfried (PRONOM)** – identificare de format și PUID  
 - **ExifTool** – extragere metadate tehnice  
 - **ImageMagick** – validare imagini (TIFF, PNG, JP2)  
-- **QPDF** – verificări structurale PDF  
+- **QPDF** – verificări structurale PDF
+- **GhostScript** – rasterizare și detectarea erorilor de interpretare 
 - **VeraPDF** – validare PDF/A conform standardului ISO  
 - **FFmpeg + FFprobe** – analiză fișiere audio-video și detectarea erorilor structurale  
 - **SHA-256** – verificare integritate și comparare hash-uri  
@@ -102,20 +103,6 @@ Generarea de copii de acces (preview-uri) și menținerea relațiilor Master →
 
 ### Jurnalizare PREMIS  
 Înregistrarea automată a evenimentelor de prezervare (ingestion, validation, fixity check, deletion, derivation, migration, transfer) în baza de date.
-
----
-
-## Stiva tehnologică
-
-- **Framework:** Electron.js  
-- **Bază de date:** Better-SQLite3 (performanță ridicată, tranzacții atomice)  
-- **Unelte externe integrate:**  
-  - Siegfried (PRONOM) – identificare formate  
-  - ExifTool – extragere metadate  
-  - VeraPDF – validare PDF/A  
-  - ImageMagick & FFmpeg / FFprobe – procesare multimedia  
-  - QPDF – analiză și reparare structuri PDF  
-  - Ghostscript -
 
 ---
 
